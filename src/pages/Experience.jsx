@@ -28,7 +28,37 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2020-2023"
+          date="May, 2020"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Google Certification{" "}
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Fundamentals Of Digital Marketing
+          </h4>
+          <p> Completed the Google Fundamentals learning program </p>
+          <p> Learnt various Google Technologies and SEO tools</p>
+          <p> Took Certification Exams</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="June, 2021"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Codecademy Certification{" "}
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle"></h4>
+          <p> Completion of Learn Javascript, Codecademy, 2021 </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2020-2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -42,6 +72,30 @@ function Experience() {
           <p>Solving and fixing bugs in a code and making features upgrade.</p>
           <p>
             Contributed to numerous project involving building,deploying api.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2021-2023"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Freelance Technical Specialist
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+          <p>
+            Executed several graphics design using Adobe, Canva for artistes and
+            brands.
+          </p>
+          <p>
+            Edited a couple of organisation contents video meant for promotion
+            using Adobe Premier Pro and Inshot.
+          </p>
+          <p>
+            Contributed in the building of an educational website meant for
+            e-learning using html5, css, javascript and react.js.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

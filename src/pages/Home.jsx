@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Victor</h2>
+        <h2> Hi, My Name is Victor Okunoye</h2>
         <div className="prompt">
-          <p>A frontend developer with a passion for learning and creating.</p>
+          <p>A software developer with a passion for learning and creating.</p>
           <LinkedInIcon />
           <EmailIcon />
           <GitHubIcon />
@@ -22,12 +22,15 @@ const Home = () => {
           <li className="item">
             <h2> Front-End </h2>
             <span>
-              ReactJS, HTML, CSS, Javascript, Git, TailwindCSS, NPM, BootStrap
+              ReactJS, HTML, CSS, Javascript, TailwindCSS, Redux, Next.JS,
             </span>
           </li>
           <li className="item">
-            <h2> Languages </h2>
-            <span> NodeJS, MySQL, Typescript, API, React Router </span>
+            <h2> Tech Stack </h2>
+            <span>
+              {" "}
+              Git, NPM, Github, Bootstrap, Typescript, API, React Router{" "}
+            </span>
           </li>
           <li className="item">
             <h2> Other Skills </h2>

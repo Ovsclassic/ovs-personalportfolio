@@ -9,7 +9,7 @@ export const ProjectList = [
   {
     name: "Responsive Educational Website",
     image: Proj1,
-    skills: "Javascript, CSS, HTML",
+    skills: "Javascript, Jquery, CSS, HTML",
     id: "0",
   },
   {
@@ -27,7 +27,7 @@ export const ProjectList = [
   {
     name: "Admin Dashboard Visualizer",
     image: Proj4,
-    skills: "Javascript, CSS, HTML",
+    skills: "Javascript, Jquery, CSS, HTML",
     id: "3",
   },
   {
@@ -39,7 +39,7 @@ export const ProjectList = [
   {
     name: "Company Branding Sample",
     image: Proj6,
-    skills: "CSS, HTML",
+    skills: "CSS3, HTML5",
     id: "5",
   },
 ];
