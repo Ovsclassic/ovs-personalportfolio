@@ -17,10 +17,16 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDisplay />} />
           <Route path="experience" element={<Experience />} />
+          <Route path="*" element={<NotFound />} /> // catch-all route
         </Routes>
         <Footer />
       </Router>
     </div>
   );
 }
+
+function NotFound() {
+  return <h1>Page Not Found</h1>;
+}
+
 export default App;
