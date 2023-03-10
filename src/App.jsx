@@ -26,7 +26,7 @@ function App() {
 }
 
 function NotFound() {
-  return <h1>Page Not Found</h1>;
+  return <h1>Page missing</h1>;
 }
 
 export default App;
