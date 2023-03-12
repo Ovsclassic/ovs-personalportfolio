@@ -6,7 +6,6 @@ import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
-  console.log(id);
   const project = ProjectList[id];
   const history = useHistory();
 

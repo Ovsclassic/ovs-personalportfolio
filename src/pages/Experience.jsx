@@ -74,34 +74,6 @@ function Experience() {
             Contributed to numerous project involving building,deploying api.
           </p>
         </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2020-2023"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Freelance Technical Specialist
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
-          <p>
-            Executed several graphics design using Adobe, Canva for artistes and
-            brands.
-          </p>
-          <p>
-            Developed the building of a google search and spotify clone fully
-            functional and responsive for all devices using react router and api
-          </p>
-          <p>
-            Edited a couple of organisation contents video meant for promotion
-            using Adobe Premier Pro and Inshot.
-          </p>
-          <p>
-            Contributed in the building of an educational website meant for
-            e-learning using html5, css, javascript and react.js.
-          </p>
-        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
