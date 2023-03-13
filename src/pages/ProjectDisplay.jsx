@@ -21,7 +21,7 @@ function ProjectDisplay() {
         <b>Skills:</b> {project.skills}
       </p>
       <a href={project.githubUrl}>
-        <GitHubIcon />
+        <GitHubIcon rel="noreferrer noopener" target="_blank" />
       </a>
       <button onClick={handleGoBack}>Go Back</button> // button to navigate back
     </div>
