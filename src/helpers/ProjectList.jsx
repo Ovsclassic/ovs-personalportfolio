@@ -7,7 +7,7 @@ import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Responsive Educational Website",
+    name: "Multipage Educational Website",
     image: Proj1,
     skills: "Javascript, Jquery, CSS, HTML",
     githubUrl: "https://github.com/Ovsclassic/Multipage-Educational-Website",
@@ -21,9 +21,9 @@ export const ProjectList = [
     id: "1",
   },
   {
-    name: "Shopping Cart Website",
+    name: "E-Commerce Website",
     image: Proj3,
-    skills: "React.js, Javascript, React Router, CSS, HTML",
+    skills: "React.js, Javascript, Api , CSS, HTML",
     githubUrl: "https://github.com/Ovsclassic/cartshop",
     id: "2",
   },
