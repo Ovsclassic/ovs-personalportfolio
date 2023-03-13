@@ -9,16 +9,32 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href="https://www.linkedin.com/in/victor-okunoye-96341a1b1">
+        <a
+          href="https://www.linkedin.com/in/victor-okunoye-96341a1b1"
+          rel="noreferrer noopener" // open social media in a new page
+          target="_blank"
+        >
           <LinkedInIcon />
         </a>
-        <a href="https://www.instagram.com/ovs_classic/">
+        <a
+          href="https://www.instagram.com/ovs_classic/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <InstagramIcon />
         </a>
-        <a href="https://twitter.com/">
+        <a
+          href="https://twitter.com/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <TwitterIcon />
         </a>
-        <a href="https://www.facebook.com/">
+        <a
+          href="https://www.facebook.com/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <FacebookIcon />
         </a>
       </div>

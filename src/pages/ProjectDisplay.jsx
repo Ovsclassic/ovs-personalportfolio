@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/ProjectDisplay.css";
@@ -7,10 +7,10 @@ import "../styles/ProjectDisplay.css";
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleGoBack = () => {
-    history.goBack(); // navigate back to previous page
+    navigate(-1); // navigate back to previous page
   };
 
   return (
