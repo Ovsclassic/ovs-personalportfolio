@@ -7,7 +7,7 @@ import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Multipage Educational Website",
+    name: "Multipage E-Learning Platform",
     image: Proj1,
     skills: "Javascript, Jquery, CSS, HTML",
     githubUrl: "https://github.com/Ovsclassic/Multipage-Educational-Website",
