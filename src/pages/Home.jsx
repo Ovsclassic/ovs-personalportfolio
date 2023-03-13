@@ -11,13 +11,25 @@ const Home = () => {
         <h2> Hi, My Name is Victor Okunoye</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <a href="https://www.linkedin.com/in/victor-okunoye-96341a1b1">
+          <a
+            href="https://www.linkedin.com/in/victor-okunoye-96341a1b1"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
             <LinkedInIcon />
           </a>
-          <a href="https://myaccount.google.com/">
+          <a
+            href="https://myaccount.google.com/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
             <EmailIcon />
           </a>
-          <a href="https://github.com/Ovsclassic">
+          <a
+            href="https://github.com/Ovsclassic"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
             <GitHubIcon />
           </a>
         </div>
@@ -28,14 +40,13 @@ const Home = () => {
           <li className="item">
             <h2> Front-End </h2>
             <span>
-              ReactJS, HTML, CSS, Javascript, TailwindCSS, Redux, NextJS
+              HTML, CSS, Javascript, Typescript, ReactJS, NextJS, Redux,
+              TailwindCSS, Bootstrap
             </span>
           </li>
           <li className="item">
-            <h2> Tech Stack </h2>
-            <span>
-              Git, NPM, Github, Bootstrap, Typescript, API, Figma, React Router
-            </span>
+            <h2>Other Technologies</h2>
+            <span>Git, NodeJS, Firebase, Figma</span>
           </li>
           <li className="item">
             <h2> Other Skills </h2>
