@@ -46,7 +46,7 @@ const Home = () => {
           </li>
           <li className="item">
             <h2> Other Technologies </h2>
-            <span>NodeJS, Firebase, MaterialUI, SASS, Git, Figma</span>
+            <span>NodeJS, SQL, Firebase, MaterialUI, SASS, Git, Figma</span>
           </li>
           <li className="item">
             <h2> Other Skills </h2>
