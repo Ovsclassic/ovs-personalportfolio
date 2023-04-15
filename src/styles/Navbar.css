@@ -31,12 +31,21 @@
 .toggleButton svg {
   font-size: 50px;
 }
+
 .toggleButton button {
   margin-right: 20px;
   background-color: transparent;
   border: none;
   color: white;
   cursor: pointer;
+}
+
+.closeIcon {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+#open .closeIcon {
+  opacity: 1;
 }
 
 #open {
