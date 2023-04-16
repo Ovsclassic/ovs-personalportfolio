@@ -18,12 +18,26 @@
 }
 
 .project p {
-  font-size: 40px;
+  font-size: 20px;
   color: #3e497a;
 }
 
 .project svg {
-  font-size: 60px;
+  font-size: 40px;
   color: #3e497a;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    padding: 0.2px;
+  }
+
+  .project img {
+    width: 700px;
+    border-radius: 10px;
+    max-width: 90%; /* make the image fit inside the container */
+    max-height: 90%; /* make the image fit inside the container */
+    object-fit: contain; /* preserve aspect ratio of the image */
+  }
 }

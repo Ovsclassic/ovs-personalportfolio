@@ -11,13 +11,20 @@
   align-items: center;
   justify-content: center;
   color: white;
+  font-family: "montserrat", sans-serif;
+  transition: all 0.3s ease;
 }
 
-.navbar a {
+.links a {
   color: white;
   text-decoration: none;
-  margin: 20px;
-  font-size: 15px;
+  margin: 40px; /*20px*/
+  font-size: 17px;
+}
+
+.links a:hover {
+  color: #9518fc;
+  transition: all 0.3s ease;
 }
 
 .toggleButton {
