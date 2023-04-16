@@ -19,7 +19,7 @@ const Home = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://myaccount.google.com/"
+            href="mailto:okunoyevictor@gmail.com"
             rel="noreferrer noopener"
             target="_blank"
           >
