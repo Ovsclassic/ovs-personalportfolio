@@ -35,24 +35,23 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <h1> Skills </h1>
+        <h1> Stacks </h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End </h2>
             <span>
-              HTML, CSS, Javascript, Typescript, ReactJS, NextJS, Redux,
-              Tailwind CSS, Bootstrap
+              HTML, CSS, Javascript, ReactJS, NextJS, Tailwind CSS, Bootstrap
             </span>
           </li>
           <li className="item">
             <h2> Other Technologies </h2>
-            <span>NodeJS, SQL, Firebase, MaterialUI, SASS, Git, Figma</span>
+            <span>Firebase, MaterialUI, Git, Figma</span>
           </li>
           <li className="item">
             <h2> Other Skills </h2>
             <span>
               Problem-Solving, Analytical Thinking, Attention To Details,
-              Excellent Organisation skill
+              Excellent Organisation skill, Collaboration
             </span>
           </li>
         </ol>
