@@ -35,7 +35,7 @@ const Home = () => {
         </div>
       </div>
       <div className="skills">
-        <h1> Stacks </h1>
+        <h1> My Stacks </h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End </h2>
@@ -48,7 +48,7 @@ const Home = () => {
             <span>Firebase, MaterialUI, Git, Figma</span>
           </li>
           <li className="item">
-            <h2> Other Skills </h2>
+            <h2> Skills </h2>
             <span>
               Problem-Solving, Analytical Thinking, Attention To Details,
               Excellent Organisation skill, Collaboration
